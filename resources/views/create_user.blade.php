@@ -9,19 +9,16 @@
             <form action="#" method="POST">
                 @csrf
 
-                <!-- Nama -->
                 <div class="mb-3">
                     <label for="nama" class="form-label">Nama</label>
                     <input type="text" id="nama" name="nama" class="form-control" placeholder="Masukkan nama">
                 </div>
 
-                <!-- NIM -->
                 <div class="mb-3">
                     <label for="nim" class="form-label">NPM</label>
                     <input type="text" id="nim" name="nim" class="form-control" placeholder="Masukkan NPM">
                 </div>
 
-                <!-- Kelas -->
                 <div class="mb-3">
                     <label for="kelas_id" class="form-label">Kelas</label>
                     <select name="kelas_id" id="kelas_id" class="form-select">
@@ -31,7 +28,6 @@
                     </select>
                 </div>
 
-                <!-- Submit -->
                 <button type="submit" class="btn btn-success">Submit</button>
                 <a href="#" class="btn btn-secondary">Batal</a>
             </form>
